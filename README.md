@@ -29,7 +29,7 @@ Then add the plugin to your [semantic-release config](https://semantic-release.g
     [
       "semantic-release-mirror-version",
       {
-        "fileGlob": ["dist/**.md"]
+        "fileGlob": "dist/**.md"
       }
     ],
     "@semantic-release/github",
